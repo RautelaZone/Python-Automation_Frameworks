@@ -1,3 +1,4 @@
+
 class TestData:
     CHROME_EXECUTABLE_PATH = "/PageObjectModel/Drivers/chromedriver"
     FIREFOX_EXECUTABLE_PATH = "/PageObjectModel/Drivers/geckodriver"

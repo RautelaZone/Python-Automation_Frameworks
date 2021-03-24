@@ -1,7 +1,6 @@
 from PageObjectModel.Config.config import TestData
 from PageObjectModel.Pages.LoginPage import LoginPage
-from PageObjectModel.Testss.test_Base import BaseTest
-
+from PageObjectModel.Tests.test_Base import BaseTest
 
 class Test_Login(BaseTest):
 
