@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 
 from PageObjectModel.Config.config import TestData
 from PageObjectModel.Pages.BasePage import BasePage
+from PageObjectModel.Pages.HomePage import HomePage
 
 
 class LoginPage(BasePage):
@@ -31,3 +32,4 @@ class LoginPage(BasePage):
         self.do_sendKeys(self.EMAIL,username)
         self.do_sendKeys(self.PASSWORD, password)
         self.do_click(self.LOGIN_BUTTON)
+        return HomePage(self.driver)
