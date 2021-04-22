@@ -1,8 +1,3 @@
-"""
-Background is a gerhkin keyword which is used to store those steps which are common to
-each Scenario and needs to be executed before.
-"""
-
 from behave import *
 
 @given('I launch browser')

@@ -1,7 +1,3 @@
-"""
-Difference between Scenario and Scenrio Oultine is SO is used for data driven testing to pass multiple parameters.
-Different data is given using Examples keyword
-"""
 from behave import *
 from selenium import webdriver
 
